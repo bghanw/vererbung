@@ -1,9 +1,11 @@
+import geometry.TextRectangle;
 import geometry.Circle;
 import geometry.Point;
 import geometry.Rectangle;
+import geometry.TextRectangle;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class GeometryTest {
 
@@ -30,5 +32,31 @@ public class GeometryTest {
         Circle circle = new Circle(new Point(1,1),5);
         assertEquals(10 * Math.PI, circle.calculateCircumference());
     }
+
+
+    @Test
+    void textRectangle_calculateArea() {
+        TextRectangle textRectangle = new TextRectangle("My Text", new Point(1,1), 4, 5);
+        assertEquals(20, textRectangle.calculateArea());
+    }
+
+    @Test
+    void textRectangle_calculateCircumference() {
+        TextRectangle textRectangle = new TextRectangle("My Text", new Point(1,1), 4, 5);
+        assertEquals(18, textRectangle.calculateCircumference());
+    }
+
+    @Test
+    void textRectangle_instanceOf_Rectangle() {
+        TextRectangle textRectangle = new TextRectangle("My Text", new Point(1,1), 4, 5);
+        assertTrue(textRectangle instanceof Rectangle);
+    }
+
+    @Test
+    void textRectangle_getText() {
+        TextRectangle textRectangle = new TextRectangle("My Text", new Point(1,1), 4, 5);
+        assertEquals("My Text", textRectangle.getText());
+    }
+
 
 }

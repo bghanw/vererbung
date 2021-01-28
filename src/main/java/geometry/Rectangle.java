@@ -2,8 +2,8 @@ package geometry;
 
 public class Rectangle extends Shape{
 
-    private int width;
-    private int height;
+    protected int width;
+    protected int height;
 
 
     public Rectangle(Point topLeft, int width, int height) {
@@ -11,6 +11,8 @@ public class Rectangle extends Shape{
         this.width = width;
         this.height = height;
     }
+
+   // public  Rectangle (){}
 
     public int getWidth() {
         return width;

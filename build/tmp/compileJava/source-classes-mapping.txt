@@ -1,12 +1,16 @@
 geometry/Point.java
  geometry.Point
+geometry/Rectangle.java
+ geometry.Rectangle
+geometry/TextRectangle.java
+ geometry.TextRectangle
 geometry/Color.java
  geometry.Color
-geometry/App.java
- geometry.App
 geometry/Shape.java
  geometry.Shape
 geometry/Circle.java
  geometry.Circle
-geometry/Rectangle.java
- geometry.Rectangle
+geometry/App.java
+ geometry.App
+geometry/ShapeArrayList.java
+ geometry.ShapeArrayList
