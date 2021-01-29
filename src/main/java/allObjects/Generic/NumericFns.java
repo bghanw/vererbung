@@ -2,7 +2,7 @@ package allObjects.Generic;
 
 public class NumericFns <T extends Number> {
 
-    T num;
+    private T num;
 
     NumericFns (T ob){
 
@@ -22,7 +22,7 @@ public class NumericFns <T extends Number> {
 
     /*
 
-    T ob;
+    private T ob;
 
     NumericFns (T ob){
 
