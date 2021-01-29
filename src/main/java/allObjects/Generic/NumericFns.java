@@ -22,7 +22,7 @@ public class NumericFns <T extends Number> {
 
     /*
 
-    private T ob;
+    p rivate T ob;
 
     NumericFns (T ob){
 

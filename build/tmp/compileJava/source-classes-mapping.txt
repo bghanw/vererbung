@@ -8,8 +8,8 @@ geometry/TextRectangle.java
  geometry.TextRectangle
 geometry/App.java
  geometry.App
-allObjects/Generic/NumericFns.java
- allObjects.Generic.NumericFns
+geometry/Color.java
+ geometry.Color
 allObjects/Generic/MyClassForAll.java
  allObjects.Generic.MyClassForAll
 allObjects/Generic/MyInteger.java
@@ -30,7 +30,9 @@ geometry/Shape.java
  geometry.Shape
 allObjects/Generic/MyDouble.java
  allObjects.Generic.MyDouble
+allObjects/Generic/Pair.java
+ allObjects.Generic.Pair
+allObjects/Generic/NumericFns.java
+ allObjects.Generic.NumericFns
 allObjects/Generic/App.java
  allObjects.Generic.App
-geometry/Color.java
- geometry.Color

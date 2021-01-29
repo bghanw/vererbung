@@ -4,6 +4,17 @@ public class App {
 
     public static void main(String[] args) {
 
+
+        Pair<Integer, String> pair = new Pair<>(10, "Ten");
+
+        int key = pair.getKey();
+        String value = pair.getValue();
+
+        System.out.println(value +" "+ key);
+
+
+
+
         NumericFns<Integer> iob = new NumericFns<>(6);
         NumericFns<Double> dob = new NumericFns<>(-6.0);
 
