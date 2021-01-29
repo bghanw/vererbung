@@ -1,16 +1,22 @@
+allObjects/equals/Equals.java
+ allObjects.equals.Equals
+allObjects/App.java
+ allObjects.App
+allObjects/toString/Person.java
+ allObjects.toString.Person
+geometry/Color.java
+ geometry.Color
+geometry/App.java
+ geometry.App
 geometry/Point.java
  geometry.Point
 geometry/Rectangle.java
  geometry.Rectangle
 geometry/TextRectangle.java
  geometry.TextRectangle
-geometry/Color.java
- geometry.Color
 geometry/Shape.java
  geometry.Shape
 geometry/Circle.java
  geometry.Circle
-geometry/App.java
- geometry.App
 geometry/ShapeArrayList.java
  geometry.ShapeArrayList
