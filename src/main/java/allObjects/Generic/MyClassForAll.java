@@ -1,9 +1,14 @@
 package allObjects.Generic;
 
+import java.util.HashMap;
+
 public class MyClassForAll<T, V> {
 
     T ob;
     V ob2;
+
+
+    //HashMap<T, V> map = new HashMap<>();
 
     MyClassForAll (T ob, V ob2){
         this.ob = ob;

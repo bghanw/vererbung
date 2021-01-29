@@ -4,8 +4,18 @@ public class App {
 
     public static void main(String[] args) {
 
+        NumericFns<Integer> iob = new NumericFns<>(6);
+        NumericFns<Double> dob = new NumericFns<>(-6.0);
 
-        MyDouble num = new MyDouble(10.0);
+        iob.absEquals(dob);
+
+        System.out.println(iob.absEquals(dob));
+
+        /* NumericFns<Integer> iOb = new NumericFns<>(4);
+
+        System.out.println(iOb.square()); */
+
+       /* MyDouble num = new MyDouble(10.0);
         num.printStuff();
 
         MyInteger num1 = new MyInteger(15);
@@ -19,6 +29,6 @@ public class App {
         MyClassForAll<Double, Integer> obj2 = new MyClassForAll<>(20.0, 7);
         MyClassForAll<String, Integer> obj3 = new MyClassForAll<>("Aewsome", 17);
 
-        obj.showType();
+        obj.showType(); */
     }
 }

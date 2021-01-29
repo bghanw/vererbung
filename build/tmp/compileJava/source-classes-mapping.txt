@@ -1,34 +1,36 @@
-geometry/Circle.java
- geometry.Circle
-geometry/Shape.java
- geometry.Shape
-geometry/ShapeArrayList.java
- geometry.ShapeArrayList
-geometry/Color.java
- geometry.Color
-geometry/App.java
- geometry.App
-geometry/Point.java
- geometry.Point
-geometry/Rectangle.java
- geometry.Rectangle
-geometry/TextRectangle.java
- geometry.TextRectangle
 allObjects/toString/Person.java
  allObjects.toString.Person
-allObjects/equals/Equals.java
- allObjects.equals.Equals
-allObjects/Generic/HowItLooks.java
- allObjects.Generic.HowItLooks
+geometry/Rectangle.java
+ geometry.Rectangle
 allObjects/App.java
  allObjects.App
-allObjects/Generic/MyDouble.java
- allObjects.Generic.MyDouble
-allObjects/Generic/MyInteger.java
- allObjects.Generic.MyInteger
-allObjects/Generic/MyString.java
- allObjects.Generic.MyString
+geometry/TextRectangle.java
+ geometry.TextRectangle
+geometry/App.java
+ geometry.App
+allObjects/Generic/NumericFns.java
+ allObjects.Generic.NumericFns
 allObjects/Generic/MyClassForAll.java
  allObjects.Generic.MyClassForAll
+allObjects/Generic/MyInteger.java
+ allObjects.Generic.MyInteger
+geometry/Circle.java
+ geometry.Circle
+geometry/ShapeArrayList.java
+ geometry.ShapeArrayList
+allObjects/equals/Equals.java
+ allObjects.equals.Equals
+geometry/Point.java
+ geometry.Point
+allObjects/Generic/HowItLooks.java
+ allObjects.Generic.HowItLooks
+allObjects/Generic/MyString.java
+ allObjects.Generic.MyString
+geometry/Shape.java
+ geometry.Shape
+allObjects/Generic/MyDouble.java
+ allObjects.Generic.MyDouble
 allObjects/Generic/App.java
  allObjects.Generic.App
+geometry/Color.java
+ geometry.Color
