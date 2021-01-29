@@ -1,9 +1,9 @@
-allObjects/equals/Equals.java
- allObjects.equals.Equals
-allObjects/App.java
- allObjects.App
-allObjects/toString/Person.java
- allObjects.toString.Person
+geometry/Circle.java
+ geometry.Circle
+geometry/Shape.java
+ geometry.Shape
+geometry/ShapeArrayList.java
+ geometry.ShapeArrayList
 geometry/Color.java
  geometry.Color
 geometry/App.java
@@ -14,9 +14,21 @@ geometry/Rectangle.java
  geometry.Rectangle
 geometry/TextRectangle.java
  geometry.TextRectangle
-geometry/Shape.java
- geometry.Shape
-geometry/Circle.java
- geometry.Circle
-geometry/ShapeArrayList.java
- geometry.ShapeArrayList
+allObjects/toString/Person.java
+ allObjects.toString.Person
+allObjects/equals/Equals.java
+ allObjects.equals.Equals
+allObjects/Generic/HowItLooks.java
+ allObjects.Generic.HowItLooks
+allObjects/App.java
+ allObjects.App
+allObjects/Generic/MyDouble.java
+ allObjects.Generic.MyDouble
+allObjects/Generic/MyClassForAll.java
+ allObjects.Generic.MyClassForAll
+allObjects/Generic/MyString.java
+ allObjects.Generic.MyString
+allObjects/Generic/MyInteger.java
+ allObjects.Generic.MyInteger
+allObjects/Generic/App.java
+ allObjects.Generic.App
