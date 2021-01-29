@@ -15,12 +15,10 @@ public class App {
         text.printStuff();
 
 
-        MyClassForAll<Integer> obj = new MyClassForAll<>(10);
-        MyClassForAll<Double> obj2 = new MyClassForAll<>(20.0);
-        MyClassForAll<String> obj3 = new MyClassForAll<>("Aewsome");
+        MyClassForAll<Integer, Double> obj = new MyClassForAll<>(10, 10.5);
+        MyClassForAll<Double, Integer> obj2 = new MyClassForAll<>(20.0, 7);
+        MyClassForAll<String, Integer> obj3 = new MyClassForAll<>("Aewsome", 17);
 
         obj.showType();
-        obj2.showType();
-        obj3.showType();
     }
 }

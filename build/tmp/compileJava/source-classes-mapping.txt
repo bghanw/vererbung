@@ -24,11 +24,11 @@ allObjects/App.java
  allObjects.App
 allObjects/Generic/MyDouble.java
  allObjects.Generic.MyDouble
-allObjects/Generic/MyClassForAll.java
- allObjects.Generic.MyClassForAll
-allObjects/Generic/MyString.java
- allObjects.Generic.MyString
 allObjects/Generic/MyInteger.java
  allObjects.Generic.MyInteger
+allObjects/Generic/MyString.java
+ allObjects.Generic.MyString
+allObjects/Generic/MyClassForAll.java
+ allObjects.Generic.MyClassForAll
 allObjects/Generic/App.java
  allObjects.Generic.App
